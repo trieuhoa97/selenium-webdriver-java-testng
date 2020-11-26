@@ -37,6 +37,7 @@ public class Topic_01_Check_Environment {
 
 	@Test
 	public void TC_03_LoginFormDisplayed() {
+		// add
 		// Login form displayed
 		Assert.assertTrue(driver.findElement(By.xpath("//form[@name='frmLogin']")).isDisplayed());
 	}
